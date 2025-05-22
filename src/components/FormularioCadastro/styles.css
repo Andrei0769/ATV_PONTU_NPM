@@ -1,0 +1,83 @@
+/* src\components\FormularioCadastro\styles.css */
+
+.container {
+    background: linear-gradient(135deg, #f0f0f0, #d9e4f5);
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.container img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000; /* Azul vibrante */
+    text-transform: uppercase; /* Letras maiúsculas */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+input,
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px; /* Aumentar o tamanho da fonte */
+}
+
+input {
+    border: 2px solid #000000; /* Azul vibrante */
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #000000; /* Verde quando em foco */
+    outline: none; /* Remove o contorno padrão */
+}
+
+button {
+    background-color: #000000; /* Verde */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #ffffff; 
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s; /* Adiciona transição para transformação */
+}
+
+button:hover {
+    background-color: #218838; /* Verde escuro */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+.link-usuarios {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #ffffff; /* Azul vibrante */
+    font-size: 14px;
+    transition: color 0.3s; /* Transição suave para a cor */
+}
+
+.link-usuarios:hover {
+    color: #28a745; /* Verde ao passar o mouse */
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
