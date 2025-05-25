@@ -1,0 +1,8 @@
+.pagina-cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: #181818;
+  padding-top: 40px;
+}
